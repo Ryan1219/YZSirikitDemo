@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4236FB3A1D4B4DE80001F91D /* TTRideShareIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4236FB391D4B4DE80001F91D /* TTRideShareIntent.swift */; };
+		4236FB3C1D4B4E4C0001F91D /* TTSendPaymentIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4236FB3B1D4B4E4C0001F91D /* TTSendPaymentIntentHandler.swift */; };
+		4281D2F31D48858F00EC0134 /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 4281D2F11D48858F00EC0134 /* chat.png */; };
+		4281D2F41D48858F00EC0134 /* chatdraft.png in Resources */ = {isa = PBXBuildFile; fileRef = 4281D2F21D48858F00EC0134 /* chatdraft.png */; };
+		4285A5C71D488B0C0091521F /* TTWorkoutsIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4285A5C61D488B0C0091521F /* TTWorkoutsIntent.swift */; };
+		42A3C8F51D40C94F00402804 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A3C8F41D40C94F00402804 /* AppDelegate.swift */; };
+		42A3C8F71D40C94F00402804 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A3C8F61D40C94F00402804 /* ViewController.swift */; };
+		42A3C8FA1D40C95000402804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A3C8F81D40C95000402804 /* Main.storyboard */; };
+		42A3C8FD1D40C95000402804 /* YZSiriKitDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42A3C8FB1D40C95000402804 /* YZSiriKitDemo.xcdatamodeld */; };
+		42A3C8FF1D40C95000402804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A3C8FE1D40C95000402804 /* Assets.xcassets */; };
+		42A3C9021D40C95000402804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A3C9001D40C95000402804 /* LaunchScreen.storyboard */; };
+		42A3C9101D40C97A00402804 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A3C90F1D40C97A00402804 /* IntentHandler.swift */; };
+		42A3C9191D40C97B00402804 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A3C9181D40C97B00402804 /* IntentsUI.framework */; };
+		42A3C91C1D40C97B00402804 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A3C91B1D40C97B00402804 /* IntentViewController.swift */; };
+		42A3C91F1D40C97B00402804 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A3C91D1D40C97B00402804 /* MainInterface.storyboard */; };
+		42A3C9231D40C97B00402804 /* YZSirikitIntentsUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 42A3C9161D40C97A00402804 /* YZSirikitIntentsUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		42A3C9261D40C97B00402804 /* YZSirikitIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 42A3C90D1D40C97A00402804 /* YZSirikitIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		42A3C92F1D40C9BC00402804 /* TTMeasureWeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A3C92E1D40C9BC00402804 /* TTMeasureWeightViewController.swift */; };
+		42A3C9331D40CD8600402804 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A3C9321D40CD8600402804 /* CoreLocation.framework */; };
+		42C8EA101D4F478200E18C66 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C8EA0F1D4F478200E18C66 /* Intents.framework */; };
+		42D09F291D4710F100A1F1FA /* AppIntentVocabulary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42D09F281D4710F100A1F1FA /* AppIntentVocabulary.plist */; };
+		42DC0DD01D4C4C48003804BE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42DC0DCD1D4C4C48003804BE /* Info.plist */; };
+		42DC0DD11D4C4C48003804BE /* PaymentsContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC0DCE1D4C4C48003804BE /* PaymentsContact.swift */; };
+		42DC0DD21D4C4E1E003804BE /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 42DC0DCD1D4C4C48003804BE /* Info.plist */; };
+		42DC0DD31D4C4E1E003804BE /* PaymentsContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC0DCE1D4C4C48003804BE /* PaymentsContact.swift */; };
+		42DC0DD41D4C4E1E003804BE /* PaymentsCore.h in Sources */ = {isa = PBXBuildFile; fileRef = 42DC0DCF1D4C4C48003804BE /* PaymentsCore.h */; };
+		42DC0DD51D4C4E29003804BE /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 42DC0DCD1D4C4C48003804BE /* Info.plist */; };
+		42DC0DD61D4C4E29003804BE /* PaymentsContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC0DCE1D4C4C48003804BE /* PaymentsContact.swift */; };
+		42DC0DD71D4C4E29003804BE /* PaymentsCore.h in Sources */ = {isa = PBXBuildFile; fileRef = 42DC0DCF1D4C4C48003804BE /* PaymentsCore.h */; };
+		42EC554E1D475F1600DFF408 /* TTSendMessageIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EC554D1D475F1600DFF408 /* TTSendMessageIntent.swift */; };
+		42EC56511D48412300DFF408 /* chatmock.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EC56411D48412300DFF408 /* chatmock.png */; };
+		42EC56521D48412300DFF408 /* chatmockdraft.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EC56421D48412300DFF408 /* chatmockdraft.png */; };
+		42EC56531D48412300DFF408 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42EC56431D48412300DFF408 /* Info.plist */; };
+		42EC56541D48412300DFF408 /* INInteraction+UnicornCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC56451D48412300DFF408 /* INInteraction+UnicornCore.m */; };
+		42EC56551D48412300DFF408 /* UCAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC56471D48412300DFF408 /* UCAccount.m */; };
+		42EC56561D48412300DFF408 /* UCAddressBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC56491D48412300DFF408 /* UCAddressBookManager.m */; };
+		42EC56571D48412300DFF408 /* UCChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC564B1D48412300DFF408 /* UCChatView.m */; };
+		42EC56581D48412300DFF408 /* UCChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC564D1D48412300DFF408 /* UCChatViewController.m */; };
+		42EC56591D48412300DFF408 /* UCContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC564F1D48412300DFF408 /* UCContact.m */; };
+		42EC565A1D48415200DFF408 /* chatmock.png in Sources */ = {isa = PBXBuildFile; fileRef = 42EC56411D48412300DFF408 /* chatmock.png */; };
+		42EC565B1D48415200DFF408 /* chatmockdraft.png in Sources */ = {isa = PBXBuildFile; fileRef = 42EC56421D48412300DFF408 /* chatmockdraft.png */; };
+		42EC565C1D48415200DFF408 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 42EC56431D48412300DFF408 /* Info.plist */; };
+		42EC565D1D48415200DFF408 /* INInteraction+UnicornCore.h in Sources */ = {isa = PBXBuildFile; fileRef = 42EC56441D48412300DFF408 /* INInteraction+UnicornCore.h */; };
+		42EC565E1D48415200DFF408 /* INInteraction+UnicornCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC56451D48412300DFF408 /* INInteraction+UnicornCore.m */; };
+		42EC565F1D48415200DFF408 /* UCAccount.h in Sources */ = {isa = PBXBuildFile; fileRef = 42EC56461D48412300DFF408 /* UCAccount.h */; };
+		42EC56601D48415200DFF408 /* UCAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC56471D48412300DFF408 /* UCAccount.m */; };
+		42EC56611D48415200DFF408 /* UCAddressBookManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 42EC56481D48412300DFF408 /* UCAddressBookManager.h */; };
+		42EC56621D48415200DFF408 /* UCAddressBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC56491D48412300DFF408 /* UCAddressBookManager.m */; };
+		42EC56631D48415200DFF408 /* UCChatView.h in Sources */ = {isa = PBXBuildFile; fileRef = 42EC564A1D48412300DFF408 /* UCChatView.h */; };
+		42EC56641D48415200DFF408 /* UCChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC564B1D48412300DFF408 /* UCChatView.m */; };
+		42EC56651D48415200DFF408 /* UCChatViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 42EC564C1D48412300DFF408 /* UCChatViewController.h */; };
+		42EC56661D48415200DFF408 /* UCChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC564D1D48412300DFF408 /* UCChatViewController.m */; };
+		42EC56671D48415200DFF408 /* UCContact.h in Sources */ = {isa = PBXBuildFile; fileRef = 42EC564E1D48412300DFF408 /* UCContact.h */; };
+		42EC56681D48415200DFF408 /* UCContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC564F1D48412300DFF408 /* UCContact.m */; };
+		42EC56691D48415200DFF408 /* UnicornCore.h in Sources */ = {isa = PBXBuildFile; fileRef = 42EC56501D48412300DFF408 /* UnicornCore.h */; };
+		42EC566C1D48415D00DFF408 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 42EC56431D48412300DFF408 /* Info.plist */; };
+		42EC566D1D48415D00DFF408 /* INInteraction+UnicornCore.h in Sources */ = {isa = PBXBuildFile; fileRef = 42EC56441D48412300DFF408 /* INInteraction+UnicornCore.h */; };
+		42EC566E1D48415D00DFF408 /* INInteraction+UnicornCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC56451D48412300DFF408 /* INInteraction+UnicornCore.m */; };
+		42EC566F1D48415D00DFF408 /* UCAccount.h in Sources */ = {isa = PBXBuildFile; fileRef = 42EC56461D48412300DFF408 /* UCAccount.h */; };
+		42EC56701D48415D00DFF408 /* UCAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC56471D48412300DFF408 /* UCAccount.m */; };
+		42EC56711D48415D00DFF408 /* UCAddressBookManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 42EC56481D48412300DFF408 /* UCAddressBookManager.h */; };
+		42EC56721D48415D00DFF408 /* UCAddressBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC56491D48412300DFF408 /* UCAddressBookManager.m */; };
+		42EC56731D48415D00DFF408 /* UCChatView.h in Sources */ = {isa = PBXBuildFile; fileRef = 42EC564A1D48412300DFF408 /* UCChatView.h */; };
+		42EC56741D48415D00DFF408 /* UCChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC564B1D48412300DFF408 /* UCChatView.m */; };
+		42EC56751D48415D00DFF408 /* UCChatViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 42EC564C1D48412300DFF408 /* UCChatViewController.h */; };
+		42EC56761D48415D00DFF408 /* UCChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC564D1D48412300DFF408 /* UCChatViewController.m */; };
+		42EC56771D48415D00DFF408 /* UCContact.h in Sources */ = {isa = PBXBuildFile; fileRef = 42EC564E1D48412300DFF408 /* UCContact.h */; };
+		42EC56781D48415D00DFF408 /* UCContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EC564F1D48412300DFF408 /* UCContact.m */; };
+		42EC56791D48415D00DFF408 /* UnicornCore.h in Sources */ = {isa = PBXBuildFile; fileRef = 42EC56501D48412300DFF408 /* UnicornCore.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42A3C9211D40C97B00402804 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42A3C8E91D40C94F00402804 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42A3C9151D40C97A00402804;
+			remoteInfo = YZSirikitIntentsUI;
+		};
+		42A3C9241D40C97B00402804 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42A3C8E91D40C94F00402804 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42A3C90C1D40C97A00402804;
+			remoteInfo = YZSirikitIntents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		42A3C92D1D40C97B00402804 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				42A3C9231D40C97B00402804 /* YZSirikitIntentsUI.appex in Embed App Extensions */,
+				42A3C9261D40C97B00402804 /* YZSirikitIntents.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4236FB391D4B4DE80001F91D /* TTRideShareIntent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTRideShareIntent.swift; sourceTree = "<group>"; };
+		4236FB3B1D4B4E4C0001F91D /* TTSendPaymentIntentHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTSendPaymentIntentHandler.swift; sourceTree = "<group>"; };
+		4281D2F11D48858F00EC0134 /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
+		4281D2F21D48858F00EC0134 /* chatdraft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatdraft.png; sourceTree = "<group>"; };
+		4285A5C61D488B0C0091521F /* TTWorkoutsIntent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTWorkoutsIntent.swift; sourceTree = "<group>"; };
+		42A3C8F11D40C94F00402804 /* YZSiriKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZSiriKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A3C8F41D40C94F00402804 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42A3C8F61D40C94F00402804 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42A3C8F91D40C95000402804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42A3C8FC1D40C95000402804 /* YZSiriKitDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YZSiriKitDemo.xcdatamodel; sourceTree = "<group>"; };
+		42A3C8FE1D40C95000402804 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42A3C9011D40C95000402804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42A3C9031D40C95000402804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42A3C90D1D40C97A00402804 /* YZSirikitIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = YZSirikitIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A3C90F1D40C97A00402804 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		42A3C9111D40C97A00402804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42A3C9161D40C97A00402804 /* YZSirikitIntentsUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = YZSirikitIntentsUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A3C9181D40C97B00402804 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		42A3C91B1D40C97B00402804 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		42A3C91E1D40C97B00402804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		42A3C9201D40C97B00402804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42A3C92E1D40C9BC00402804 /* TTMeasureWeightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTMeasureWeightViewController.swift; sourceTree = "<group>"; };
+		42A3C9321D40CD8600402804 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		42A3C9341D40CE1100402804 /* YZSiriKitDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = YZSiriKitDemo.entitlements; sourceTree = "<group>"; };
+		42C8EA0F1D4F478200E18C66 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		42D09F281D4710F100A1F1FA /* AppIntentVocabulary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppIntentVocabulary.plist; path = YZSiriKitDemo/AppIntentVocabulary.plist; sourceTree = "<group>"; };
+		42DC0DCD1D4C4C48003804BE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42DC0DCE1D4C4C48003804BE /* PaymentsContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentsContact.swift; sourceTree = "<group>"; };
+		42DC0DCF1D4C4C48003804BE /* PaymentsCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentsCore.h; sourceTree = "<group>"; };
+		42EC554D1D475F1600DFF408 /* TTSendMessageIntent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTSendMessageIntent.swift; sourceTree = "<group>"; };
+		42EC55741D47633E00DFF408 /* YZSirikitIntents-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YZSirikitIntents-Bridging-Header.h"; sourceTree = "<group>"; };
+		42EC563C1D4840FC00DFF408 /* YZSirikitIntentsUI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YZSirikitIntentsUI-Bridging-Header.h"; sourceTree = "<group>"; };
+		42EC56411D48412300DFF408 /* chatmock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatmock.png; sourceTree = "<group>"; };
+		42EC56421D48412300DFF408 /* chatmockdraft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatmockdraft.png; sourceTree = "<group>"; };
+		42EC56431D48412300DFF408 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EC56441D48412300DFF408 /* INInteraction+UnicornCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "INInteraction+UnicornCore.h"; sourceTree = "<group>"; };
+		42EC56451D48412300DFF408 /* INInteraction+UnicornCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "INInteraction+UnicornCore.m"; sourceTree = "<group>"; };
+		42EC56461D48412300DFF408 /* UCAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCAccount.h; sourceTree = "<group>"; };
+		42EC56471D48412300DFF408 /* UCAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCAccount.m; sourceTree = "<group>"; };
+		42EC56481D48412300DFF408 /* UCAddressBookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCAddressBookManager.h; sourceTree = "<group>"; };
+		42EC56491D48412300DFF408 /* UCAddressBookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCAddressBookManager.m; sourceTree = "<group>"; };
+		42EC564A1D48412300DFF408 /* UCChatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCChatView.h; sourceTree = "<group>"; };
+		42EC564B1D48412300DFF408 /* UCChatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCChatView.m; sourceTree = "<group>"; };
+		42EC564C1D48412300DFF408 /* UCChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCChatViewController.h; sourceTree = "<group>"; };
+		42EC564D1D48412300DFF408 /* UCChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCChatViewController.m; sourceTree = "<group>"; };
+		42EC564E1D48412300DFF408 /* UCContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCContact.h; sourceTree = "<group>"; };
+		42EC564F1D48412300DFF408 /* UCContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCContact.m; sourceTree = "<group>"; };
+		42EC56501D48412300DFF408 /* UnicornCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnicornCore.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42A3C8EE1D40C94F00402804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A3C9331D40CD8600402804 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A3C90A1D40C97A00402804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C8EA101D4F478200E18C66 /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A3C9131D40C97A00402804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A3C9191D40C97B00402804 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42A3C8E81D40C94F00402804 = {
+			isa = PBXGroup;
+			children = (
+				42A3C8F31D40C94F00402804 /* YZSiriKitDemo */,
+				42A3C90E1D40C97A00402804 /* YZSirikitIntents */,
+				42A3C91A1D40C97B00402804 /* YZSirikitIntentsUI */,
+				42A3C9171D40C97B00402804 /* Frameworks */,
+				42A3C8F21D40C94F00402804 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42A3C8F21D40C94F00402804 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42A3C8F11D40C94F00402804 /* YZSiriKitDemo.app */,
+				42A3C90D1D40C97A00402804 /* YZSirikitIntents.appex */,
+				42A3C9161D40C97A00402804 /* YZSirikitIntentsUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42A3C8F31D40C94F00402804 /* YZSiriKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				42A3C9341D40CE1100402804 /* YZSiriKitDemo.entitlements */,
+				42A3C8F41D40C94F00402804 /* AppDelegate.swift */,
+				42A3C8F61D40C94F00402804 /* ViewController.swift */,
+				42A3C92E1D40C9BC00402804 /* TTMeasureWeightViewController.swift */,
+				42A3C8F81D40C95000402804 /* Main.storyboard */,
+				42A3C8FE1D40C95000402804 /* Assets.xcassets */,
+				42A3C9001D40C95000402804 /* LaunchScreen.storyboard */,
+				42A3C9031D40C95000402804 /* Info.plist */,
+				42A3C8FB1D40C95000402804 /* YZSiriKitDemo.xcdatamodeld */,
+			);
+			path = YZSiriKitDemo;
+			sourceTree = "<group>";
+		};
+		42A3C90E1D40C97A00402804 /* YZSirikitIntents */ = {
+			isa = PBXGroup;
+			children = (
+				42A3C90F1D40C97A00402804 /* IntentHandler.swift */,
+				42EC554D1D475F1600DFF408 /* TTSendMessageIntent.swift */,
+				4285A5C61D488B0C0091521F /* TTWorkoutsIntent.swift */,
+				4236FB391D4B4DE80001F91D /* TTRideShareIntent.swift */,
+				4236FB3B1D4B4E4C0001F91D /* TTSendPaymentIntentHandler.swift */,
+				42A3C9111D40C97A00402804 /* Info.plist */,
+				42EC55741D47633E00DFF408 /* YZSirikitIntents-Bridging-Header.h */,
+			);
+			path = YZSirikitIntents;
+			sourceTree = "<group>";
+		};
+		42A3C9171D40C97B00402804 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42C8EA0F1D4F478200E18C66 /* Intents.framework */,
+				42DC0DCC1D4C4C48003804BE /* PaymentsCore */,
+				42D09F281D4710F100A1F1FA /* AppIntentVocabulary.plist */,
+				42EC56401D48412300DFF408 /* UnicornCore */,
+				42A3C9321D40CD8600402804 /* CoreLocation.framework */,
+				42A3C9181D40C97B00402804 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42A3C91A1D40C97B00402804 /* YZSirikitIntentsUI */ = {
+			isa = PBXGroup;
+			children = (
+				4281D2F11D48858F00EC0134 /* chat.png */,
+				4281D2F21D48858F00EC0134 /* chatdraft.png */,
+				42A3C91B1D40C97B00402804 /* IntentViewController.swift */,
+				42A3C91D1D40C97B00402804 /* MainInterface.storyboard */,
+				42A3C9201D40C97B00402804 /* Info.plist */,
+				42EC563C1D4840FC00DFF408 /* YZSirikitIntentsUI-Bridging-Header.h */,
+			);
+			path = YZSirikitIntentsUI;
+			sourceTree = "<group>";
+		};
+		42DC0DCC1D4C4C48003804BE /* PaymentsCore */ = {
+			isa = PBXGroup;
+			children = (
+				42DC0DCD1D4C4C48003804BE /* Info.plist */,
+				42DC0DCE1D4C4C48003804BE /* PaymentsContact.swift */,
+				42DC0DCF1D4C4C48003804BE /* PaymentsCore.h */,
+			);
+			path = PaymentsCore;
+			sourceTree = "<group>";
+		};
+		42EC56401D48412300DFF408 /* UnicornCore */ = {
+			isa = PBXGroup;
+			children = (
+				42EC56411D48412300DFF408 /* chatmock.png */,
+				42EC56421D48412300DFF408 /* chatmockdraft.png */,
+				42EC56431D48412300DFF408 /* Info.plist */,
+				42EC56441D48412300DFF408 /* INInteraction+UnicornCore.h */,
+				42EC56451D48412300DFF408 /* INInteraction+UnicornCore.m */,
+				42EC56461D48412300DFF408 /* UCAccount.h */,
+				42EC56471D48412300DFF408 /* UCAccount.m */,
+				42EC56481D48412300DFF408 /* UCAddressBookManager.h */,
+				42EC56491D48412300DFF408 /* UCAddressBookManager.m */,
+				42EC564A1D48412300DFF408 /* UCChatView.h */,
+				42EC564B1D48412300DFF408 /* UCChatView.m */,
+				42EC564C1D48412300DFF408 /* UCChatViewController.h */,
+				42EC564D1D48412300DFF408 /* UCChatViewController.m */,
+				42EC564E1D48412300DFF408 /* UCContact.h */,
+				42EC564F1D48412300DFF408 /* UCContact.m */,
+				42EC56501D48412300DFF408 /* UnicornCore.h */,
+			);
+			path = UnicornCore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42A3C8F01D40C94F00402804 /* YZSiriKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42A3C9061D40C95000402804 /* Build configuration list for PBXNativeTarget "YZSiriKitDemo" */;
+			buildPhases = (
+				42A3C8ED1D40C94F00402804 /* Sources */,
+				42A3C8EE1D40C94F00402804 /* Frameworks */,
+				42A3C8EF1D40C94F00402804 /* Resources */,
+				42A3C92D1D40C97B00402804 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42A3C9221D40C97B00402804 /* PBXTargetDependency */,
+				42A3C9251D40C97B00402804 /* PBXTargetDependency */,
+			);
+			name = YZSiriKitDemo;
+			productName = YZSiriKitDemo;
+			productReference = 42A3C8F11D40C94F00402804 /* YZSiriKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42A3C90C1D40C97A00402804 /* YZSirikitIntents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42A3C92A1D40C97B00402804 /* Build configuration list for PBXNativeTarget "YZSirikitIntents" */;
+			buildPhases = (
+				42A3C9091D40C97A00402804 /* Sources */,
+				42A3C90A1D40C97A00402804 /* Frameworks */,
+				42A3C90B1D40C97A00402804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZSirikitIntents;
+			productName = YZSirikitIntents;
+			productReference = 42A3C90D1D40C97A00402804 /* YZSirikitIntents.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		42A3C9151D40C97A00402804 /* YZSirikitIntentsUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42A3C9271D40C97B00402804 /* Build configuration list for PBXNativeTarget "YZSirikitIntentsUI" */;
+			buildPhases = (
+				42A3C9121D40C97A00402804 /* Sources */,
+				42A3C9131D40C97A00402804 /* Frameworks */,
+				42A3C9141D40C97A00402804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZSirikitIntentsUI;
+			productName = YZSirikitIntentsUI;
+			productReference = 42A3C9161D40C97A00402804 /* YZSirikitIntentsUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42A3C8E91D40C94F00402804 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = zhangliangwang;
+				TargetAttributes = {
+					42A3C8F01D40C94F00402804 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = M6K278EW5S;
+						DevelopmentTeamName = "SHENZHEN TOMTOP TECHNOLOGY CO., LTD.";
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+					42A3C90C1D40C97A00402804 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = M6K278EW5S;
+						DevelopmentTeamName = "SHENZHEN TOMTOP TECHNOLOGY CO., LTD.";
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					42A3C9151D40C97A00402804 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = M6K278EW5S;
+						DevelopmentTeamName = "SHENZHEN TOMTOP TECHNOLOGY CO., LTD.";
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 42A3C8EC1D40C94F00402804 /* Build configuration list for PBXProject "YZSiriKitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42A3C8E81D40C94F00402804;
+			productRefGroup = 42A3C8F21D40C94F00402804 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42A3C8F01D40C94F00402804 /* YZSiriKitDemo */,
+				42A3C90C1D40C97A00402804 /* YZSirikitIntents */,
+				42A3C9151D40C97A00402804 /* YZSirikitIntentsUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42A3C8EF1D40C94F00402804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DC0DD01D4C4C48003804BE /* Info.plist in Resources */,
+				42A3C9021D40C95000402804 /* LaunchScreen.storyboard in Resources */,
+				42A3C8FF1D40C95000402804 /* Assets.xcassets in Resources */,
+				42D09F291D4710F100A1F1FA /* AppIntentVocabulary.plist in Resources */,
+				42EC56511D48412300DFF408 /* chatmock.png in Resources */,
+				42A3C8FA1D40C95000402804 /* Main.storyboard in Resources */,
+				42EC56521D48412300DFF408 /* chatmockdraft.png in Resources */,
+				42EC56531D48412300DFF408 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A3C90B1D40C97A00402804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A3C9141D40C97A00402804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A3C91F1D40C97B00402804 /* MainInterface.storyboard in Resources */,
+				4281D2F31D48858F00EC0134 /* chat.png in Resources */,
+				4281D2F41D48858F00EC0134 /* chatdraft.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42A3C8ED1D40C94F00402804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EC56541D48412300DFF408 /* INInteraction+UnicornCore.m in Sources */,
+				42A3C8F71D40C94F00402804 /* ViewController.swift in Sources */,
+				42EC56571D48412300DFF408 /* UCChatView.m in Sources */,
+				42A3C8F51D40C94F00402804 /* AppDelegate.swift in Sources */,
+				42EC56561D48412300DFF408 /* UCAddressBookManager.m in Sources */,
+				42A3C8FD1D40C95000402804 /* YZSiriKitDemo.xcdatamodeld in Sources */,
+				42EC56591D48412300DFF408 /* UCContact.m in Sources */,
+				42A3C92F1D40C9BC00402804 /* TTMeasureWeightViewController.swift in Sources */,
+				42DC0DD11D4C4C48003804BE /* PaymentsContact.swift in Sources */,
+				42EC56581D48412300DFF408 /* UCChatViewController.m in Sources */,
+				42EC56551D48412300DFF408 /* UCAccount.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A3C9091D40C97A00402804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DC0DD21D4C4E1E003804BE /* Info.plist in Sources */,
+				42DC0DD31D4C4E1E003804BE /* PaymentsContact.swift in Sources */,
+				42DC0DD41D4C4E1E003804BE /* PaymentsCore.h in Sources */,
+				42EC565A1D48415200DFF408 /* chatmock.png in Sources */,
+				42EC565B1D48415200DFF408 /* chatmockdraft.png in Sources */,
+				42EC565C1D48415200DFF408 /* Info.plist in Sources */,
+				4236FB3C1D4B4E4C0001F91D /* TTSendPaymentIntentHandler.swift in Sources */,
+				42EC565D1D48415200DFF408 /* INInteraction+UnicornCore.h in Sources */,
+				42EC565E1D48415200DFF408 /* INInteraction+UnicornCore.m in Sources */,
+				42EC565F1D48415200DFF408 /* UCAccount.h in Sources */,
+				42EC56601D48415200DFF408 /* UCAccount.m in Sources */,
+				4236FB3A1D4B4DE80001F91D /* TTRideShareIntent.swift in Sources */,
+				42EC56611D48415200DFF408 /* UCAddressBookManager.h in Sources */,
+				4285A5C71D488B0C0091521F /* TTWorkoutsIntent.swift in Sources */,
+				42EC56621D48415200DFF408 /* UCAddressBookManager.m in Sources */,
+				42EC56631D48415200DFF408 /* UCChatView.h in Sources */,
+				42EC56641D48415200DFF408 /* UCChatView.m in Sources */,
+				42EC56651D48415200DFF408 /* UCChatViewController.h in Sources */,
+				42EC56661D48415200DFF408 /* UCChatViewController.m in Sources */,
+				42EC56671D48415200DFF408 /* UCContact.h in Sources */,
+				42EC56681D48415200DFF408 /* UCContact.m in Sources */,
+				42EC56691D48415200DFF408 /* UnicornCore.h in Sources */,
+				42A3C9101D40C97A00402804 /* IntentHandler.swift in Sources */,
+				42EC554E1D475F1600DFF408 /* TTSendMessageIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A3C9121D40C97A00402804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DC0DD51D4C4E29003804BE /* Info.plist in Sources */,
+				42DC0DD61D4C4E29003804BE /* PaymentsContact.swift in Sources */,
+				42DC0DD71D4C4E29003804BE /* PaymentsCore.h in Sources */,
+				42EC566C1D48415D00DFF408 /* Info.plist in Sources */,
+				42EC566D1D48415D00DFF408 /* INInteraction+UnicornCore.h in Sources */,
+				42EC566E1D48415D00DFF408 /* INInteraction+UnicornCore.m in Sources */,
+				42EC566F1D48415D00DFF408 /* UCAccount.h in Sources */,
+				42EC56701D48415D00DFF408 /* UCAccount.m in Sources */,
+				42EC56711D48415D00DFF408 /* UCAddressBookManager.h in Sources */,
+				42EC56721D48415D00DFF408 /* UCAddressBookManager.m in Sources */,
+				42EC56731D48415D00DFF408 /* UCChatView.h in Sources */,
+				42EC56741D48415D00DFF408 /* UCChatView.m in Sources */,
+				42EC56751D48415D00DFF408 /* UCChatViewController.h in Sources */,
+				42EC56761D48415D00DFF408 /* UCChatViewController.m in Sources */,
+				42EC56771D48415D00DFF408 /* UCContact.h in Sources */,
+				42EC56781D48415D00DFF408 /* UCContact.m in Sources */,
+				42EC56791D48415D00DFF408 /* UnicornCore.h in Sources */,
+				42A3C91C1D40C97B00402804 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42A3C9221D40C97B00402804 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42A3C9151D40C97A00402804 /* YZSirikitIntentsUI */;
+			targetProxy = 42A3C9211D40C97B00402804 /* PBXContainerItemProxy */;
+		};
+		42A3C9251D40C97B00402804 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42A3C90C1D40C97A00402804 /* YZSirikitIntents */;
+			targetProxy = 42A3C9241D40C97B00402804 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42A3C8F81D40C95000402804 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42A3C8F91D40C95000402804 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42A3C9001D40C95000402804 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42A3C9011D40C95000402804 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		42A3C91D1D40C97B00402804 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42A3C91E1D40C97B00402804 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42A3C9041D40C95000402804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42A3C9051D40C95000402804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42A3C9071D40C95000402804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = YZSiriKitDemo/YZSiriKitDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = YZSiriKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomtop.sirikitdemo.YZSiriKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		42A3C9081D40C95000402804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = YZSiriKitDemo/YZSiriKitDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = YZSiriKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomtop.sirikitdemo.YZSiriKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		42A3C9281D40C97B00402804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = YZSirikitIntentsUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomtop.sirikitdemo.YZSiriKitDemo.YZSirikitIntentsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "YZSirikitIntentsUI/YZSirikitIntentsUI-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		42A3C9291D40C97B00402804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = YZSirikitIntentsUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomtop.sirikitdemo.YZSiriKitDemo.YZSirikitIntentsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "YZSirikitIntentsUI/YZSirikitIntentsUI-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		42A3C92B1D40C97B00402804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = YZSirikitIntents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomtop.sirikitdemo.YZSiriKitDemo.YZSirikitIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "YZSirikitIntents/YZSirikitIntents-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		42A3C92C1D40C97B00402804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = YZSirikitIntents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomtop.sirikitdemo.YZSiriKitDemo.YZSirikitIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "YZSirikitIntents/YZSirikitIntents-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42A3C8EC1D40C94F00402804 /* Build configuration list for PBXProject "YZSiriKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A3C9041D40C95000402804 /* Debug */,
+				42A3C9051D40C95000402804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42A3C9061D40C95000402804 /* Build configuration list for PBXNativeTarget "YZSiriKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A3C9071D40C95000402804 /* Debug */,
+				42A3C9081D40C95000402804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42A3C9271D40C97B00402804 /* Build configuration list for PBXNativeTarget "YZSirikitIntentsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A3C9281D40C97B00402804 /* Debug */,
+				42A3C9291D40C97B00402804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42A3C92A1D40C97B00402804 /* Build configuration list for PBXNativeTarget "YZSirikitIntents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A3C92B1D40C97B00402804 /* Debug */,
+				42A3C92C1D40C97B00402804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		42A3C8FB1D40C95000402804 /* YZSiriKitDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				42A3C8FC1D40C95000402804 /* YZSiriKitDemo.xcdatamodel */,
+			);
+			currentVersion = 42A3C8FC1D40C95000402804 /* YZSiriKitDemo.xcdatamodel */;
+			path = YZSiriKitDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 42A3C8E91D40C94F00402804 /* Project object */;
+}

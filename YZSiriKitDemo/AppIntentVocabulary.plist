@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ParameterVocabularies</key>
+	<array>
+		<dict>
+			<key>ParameterNames</key>
+			<array>
+				<string>INStartWorkoutIntent.workoutName</string>
+			</array>
+			<key>ParameterVocabulary</key>
+			<array>
+				<dict>
+					<key>VocabularyItemSynonyms</key>
+					<array>
+						<dict>
+							<key>VocabularyItemPhrase</key>
+							<string>健身仪</string>
+							<key>VocabularyItemPronunciation</key>
+							<string>锻炼身体</string>
+							<key>VocabularyItemExamples</key>
+							<array>
+								<string>打开开心</string>
+								<string>告诉开心我要打开健身仪</string>
+								<string>开始使用健身仪</string>
+							</array>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>ParameterNames</key>
+			<array>
+				<string>INPauseWorkoutIntent.workoutName</string>
+			</array>
+			<key>ParameterVocabulary</key>
+			<array>
+				<dict>
+					<key>VocabularyItemIdentifier</key>
+					<string></string>
+					<key>VocabularyItemSynonyms</key>
+					<array>
+						<dict>
+							<key>VocabularyItemPhrase</key>
+							<string></string>
+							<key>VocabularyItemPronunciation</key>
+							<string></string>
+							<key>VocabularyItemExamples</key>
+							<array>
+								<string></string>
+							</array>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>IntentPhrases</key>
+	<array>
+		<dict>
+			<key>IntentName</key>
+			<string>INStartWorkoutIntent</string>
+			<key>IntentExamples</key>
+			<array>
+				<string>Siri, start my fitness gear workout with a goal of 20 minutes</string>
+			</array>
+		</dict>
+		<dict>
+			<key>IntentName</key>
+			<string>INPauseWorkoutIntent</string>
+			<key>IntentExamples</key>
+			<array>
+				<string>Siri，pause my fitness gear workout</string>
+			</array>
+		</dict>
+		<dict>
+			<key>IntentName</key>
+			<string>INResumeWorkoutIntent</string>
+			<key>IntentExamples</key>
+			<array>
+				<string>Siri,  resume my fitness gear workout</string>
+			</array>
+		</dict>
+		<dict>
+			<key>IntentName</key>
+			<string>INCancelWorkoutIntent</string>
+			<key>IntentExamples</key>
+			<array>
+				<string>Siri, cancel my fitness gear workout</string>
+			</array>
+		</dict>
+		<dict>
+			<key>IntentName</key>
+			<string>INEndWorkoutIntent</string>
+			<key>IntentExamples</key>
+			<array>
+				<string>Siri, end my fitness workouut</string>
+			</array>
+		</dict>
+		<dict>
+			<key>IntentName</key>
+			<string>INSendMessageIntent</string>
+			<key>IntentExamples</key>
+			<array>
+				<string>Siri, send message intent</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
